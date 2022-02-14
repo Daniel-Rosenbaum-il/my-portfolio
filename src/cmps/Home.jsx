@@ -43,7 +43,7 @@ export const Home = () => {
             </a>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1KvS2atM_bkHNEl7QEp3nKr430g0QALOp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dErgDMmqgLHoBxACrRHEep2iWuM3tzLk/view?usp=sharing"
             >
               <button className="btn btn-secondary">Get resume</button>
             </a>
