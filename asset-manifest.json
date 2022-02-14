@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.441ceb41.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.63c5940d.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.63c5940d.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.149f3cbf.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.149f3cbf.js.map",
+    "static/js/2.3fdf7f86.chunk.js": "/my-portfolio/static/js/2.3fdf7f86.chunk.js",
+    "static/js/2.3fdf7f86.chunk.js.map": "/my-portfolio/static/js/2.3fdf7f86.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.441ceb41.chunk.css.map": "/my-portfolio/static/css/main.441ceb41.chunk.css.map",
+    "static/js/2.3fdf7f86.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.3fdf7f86.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/my-portfolio/static/media/home-background.9b0fbb2f.png",
+    "static/media/chat-app.jpg": "/my-portfolio/static/media/chat-app.fca035eb.jpg",
+    "static/media/contact-me-icon.9d0c856e.svg": "/my-portfolio/static/media/contact-me-icon.9d0c856e.svg",
+    "static/media/game-keys.jpg": "/my-portfolio/static/media/game-keys.d43bc815.jpg",
+    "static/media/hello-weather.jpg": "/my-portfolio/static/media/hello-weather.f11623b3.jpg",
+    "static/media/me.png": "/my-portfolio/static/media/me.9a6e29ae.png",
+    "static/media/minesweeper.jpg": "/my-portfolio/static/media/minesweeper.7d5ee87d.jpg",
+    "static/media/the-trivia-game.jpg": "/my-portfolio/static/media/the-trivia-game.468da2f3.jpg",
+    "static/media/ui-design.jpg": "/my-portfolio/static/media/ui-design.4c77afa0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.149f3cbf.js",
+    "static/js/2.3fdf7f86.chunk.js",
+    "static/css/main.441ceb41.chunk.css",
+    "static/js/main.63c5940d.chunk.js"
+  ]
+}
