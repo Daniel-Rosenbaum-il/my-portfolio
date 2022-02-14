@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: roboto, sans-serif;
+  // position: relative;
+  cursor: none;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.app {
+  position: relative;
+}
+// .cursor {
+//   height: 50px;
+//   width: 50px;
+//   position: absolute;
+//   transition-duration: 0.02s;
+//   transition-timing-function: ease-in-out;
+//   svg {
+//     width: 100%;
+//     height: 100%;
+//     fill: $secondary-color;
+//   }
+// }
+
+.cursor {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  // transition: 0.1s ease-in-out;
+  z-index: 999;
+}
+
+.cursor2 {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: $secondary-color;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  // transition: 0.15s ease;
+}
+// a:hover .cursor {
+//   background-color: green;
+//   color: gold;
+//   border-color: aqua;
+//   opacity: 0;
+// }
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  font-family: Yellowtail;
+  color: white;
+  font-size: 1.5rem;
+}
+@font-face {
+  font-family: Yellowtail;
+  src: url("../../font/Yellowtail-Regular.ttf");
+}

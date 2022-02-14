@@ -1,0 +1,89 @@
+header {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  &.scrolling {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    padding: 32px;
+    align-content: center;
+    height: 80px;
+    border-bottom: 1px solid #e4e5e7;
+    a {
+      color: #1a1716;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: 0px 2px 1px -1px #001aff;
+      }
+    }
+  }
+  &.menu-open {
+    cursor: default;
+    position: fixed;
+    top: 0;
+    height: 100 vh;
+    background-color: #1a1716;
+    display: flex;
+    flex-direction: column;
+    width: 100 vw;
+    align-items: center;
+    padding: 10 px;
+    justify-content: space-evenly;
+  }
+}
+.main-header {
+  display: flex;
+  gap: 68px;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
+  a {
+    color: white;
+    transition: 0.1s;
+    &:hover,
+    &:active {
+      box-shadow: 0px 2px 2px -1px #f76c6c;
+    }
+  }
+  nav {
+    cursor: default;
+    display: flex;
+    @media screen and (max-width: 750px) {
+      position: fixed;
+      flex-direction: column;
+      height: 100vh;
+      transform: translateY(-100%);
+      bottom: 0;
+      right: 0;
+      left: 0;
+      justify-content: space-evenly;
+      background-color: #1a1716;
+      z-index: 9999;
+      align-items: center;
+      font-size: 40px;
+      transition: 0.6s;
+      &.menu-open {
+        transform: translateY(0);
+      }
+    }
+    .close-menu-icon {
+      position: fixed;
+      top: 5px;
+      right: 5px;
+      fill: white;
+      cursor: pointer;
+    }
+  }
+
+  @media screen and(min-width: 750px) {
+    justify-content: flex-start;
+    nav {
+      gap: 8px;
+    }
+    .hamburger-icon {
+      display: none;
+    }
+  }
+}

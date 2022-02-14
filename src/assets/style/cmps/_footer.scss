@@ -1,0 +1,15 @@
+.footer {
+    background-color: white;
+    background-image: url(../../img/footer-background-1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+    img{
+        max-width:40px
+    }
+    .logo-footer{
+        color:#1a1716;
+    }
+}
