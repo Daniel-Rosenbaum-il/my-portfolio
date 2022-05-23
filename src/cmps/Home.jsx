@@ -8,10 +8,7 @@ export const Home = () => {
       <div className=" home-info container">
         <div className="short-info">
           <div className="social-media">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/daniel-rosenbaum-22102a206/"
-            >
+            <a target="_blank" href="https://www.linkedin.com/in/daniel-rosenbaum-22102a206/">
               {" "}
               <BsLinkedin />
             </a>
@@ -26,11 +23,7 @@ export const Home = () => {
           <Typewriter
             className="hero-txt"
             options={{
-              strings: [
-                "JS, Html, Css",
-                "Node.js, MongoDB, Express",
-                "Building rich ui JS apps",
-              ],
+              strings: ["JS, Html, Css", "Node.js, MongoDB, Express", "Building rich ui JS apps"],
               autoStart: true,
               loop: true,
               pauseFor: 2500,
@@ -41,10 +34,7 @@ export const Home = () => {
             <a href="#contact-me">
               <button className="btn btn-outline">Hire me</button>
             </a>
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1dErgDMmqgLHoBxACrRHEep2iWuM3tzLk/view?usp=sharing"
-            >
+            <a target="_blank" href="https://drive.google.com/file/d/1O56wVQS1PPzMrwJB3m3H6st8QWJLwhQ4/view?usp=sharing">
               <button className="btn btn-secondary">Get resume</button>
             </a>
           </div>
